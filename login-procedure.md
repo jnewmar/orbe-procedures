@@ -1,5 +1,16 @@
 # Login Procedure
 
+## ⚠️ PRÉ-REQUISITOS IMPORTANTES
+
+**Antes de iniciar o processo de login, certifique-se de que você possui:**
+
+- ✅ **Credenciais válidas de usuário** (e-mail e senha)
+- ✅ **Acesso à conta de e-mail registrada** para receber o código OTP
+- ✅ **Conexão de internet ativa** e estável
+- ✅ **Navegador compatível** (Chrome, Firefox, Safari ou Edge atualizado)
+
+---
+
 ## Overview
 
 This document outlines the standard login procedure for accessing the ORBE system.
@@ -72,7 +83,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 - **Symptoms**: OTP verification code email doesn't arrive
 - **Solutions**:
   - Wait 2-3 minutes as email delivery may take some time
-  - **Check your spam/junk email folder** - OTP emails are sometimes filtered
+  - Check your spam/junk email folder - OTP emails are sometimes filtered
   - Verify that your registered email address is correct and accessible
   - Click "Resend" to request a new OTP code
   - Contact system administrator if email issues persist
@@ -140,7 +151,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 
 ## Document Information
 
-- Version: 1.1
+- Version: 1.2
 - Last Updated: September 10, 2025
 - Next Review Date: December 10, 2025
 - Document Owner: IT Security Team
