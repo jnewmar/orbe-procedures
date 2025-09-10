@@ -1,250 +1,147 @@
-# Create Deal Procedure
+# ORBE Deal Creation Procedure
 
-## ⚠️ IMPORTANT PREREQUISITES
-
-Before starting the deal creation process, ensure you have:
-
-- ✅ Valid user credentials and active ORBE session
-- ✅ Proper permissions to create deals in the system
-- ✅ Client/prospect contact information ready
-- ✅ Deal details and opportunity information prepared
-- ✅ Stable internet connection
-- ✅ Compatible web browser (Chrome, Firefox, Safari, or Edge updated)
-
-## Overview
-
-This document outlines the standard procedure for creating and registering new deals (opportunities) in the ORBE platform. A deal represents a potential business opportunity with a client or prospect.
+This document outlines the step-by-step process for creating new deals in the ORBE system.
 
 ## Prerequisites
 
 - Active ORBE user account with deal creation permissions
-- Completed login to the ORBE system (see login-procedure.md)
 - Access to client/prospect information
-- Understanding of your company's deal classification system
-- Knowledge of deal stages and pipeline processes
-- Valid contact information for the opportunity
+- Understanding of deal stages and terminology
+- Proper documentation for deal verification
 
-## Step-by-Step Deal Creation Procedure
+## Required Fields
 
-### 1. Access the Deal Creation Module
+### Mandatory Information
+The following fields are **required** and must be completed before saving a deal:
 
-1. Log into the ORBE system following the standard login procedure
-2. Navigate to the main dashboard
-3. Locate and click on the "Deals" or "Opportunities" menu item
-4. Click the "Create New Deal" or "+" button
-5. Verify that the deal creation form loads properly
+- **Company Name**: Full legal name of the client company
+- **Founder Name**: Name of the company founder or primary decision maker
+- **Company Email**: Primary business email address for the company
+- **Company Website**: Complete URL of the company's official website
 
-### 2. Enter Basic Deal Information
+⚠️ **Important**: The system will not allow you to save a deal without completing all mandatory fields. You will receive error messages if any required information is missing.
 
-1. **Deal Name/Title**
-   - Enter a descriptive name for the opportunity
-   - Use clear, professional naming conventions
-   - Include client name and opportunity type (e.g., "ABC Corp - Software License Renewal")
+### Error Messages for Missing Required Fields
 
-2. **Deal Value**
-   - Enter the estimated monetary value of the opportunity
-   - Select the appropriate currency from the dropdown
-   - Ensure accuracy as this affects forecasting reports
+If you attempt to save without completing mandatory fields, you will see these error messages:
 
-3. **Deal Stage**
-   - Select the current stage from the pipeline dropdown
-   - Common stages: Prospecting, Qualification, Proposal, Negotiation, Closed Won/Lost
-   - Choose the stage that best represents the current status
+- **Missing Company Name**: "Company Name is required. Please enter the full legal name of the company."
+- **Missing Founder Name**: "Founder Name is required. Please enter the name of the company founder or primary contact."
+- **Missing Company Email**: "Company Email is required. Please enter a valid business email address."
+- **Missing Company Website**: "Company Website is required. Please enter the complete URL (including http:// or https://)."
+- **Invalid Email Format**: "Please enter a valid email address in the format: example@company.com"
+- **Invalid Website Format**: "Please enter a valid website URL starting with http:// or https://"
 
-4. **Expected Close Date**
-   - Select the anticipated closing date using the date picker
-   - Be realistic with timelines
-   - This date affects pipeline forecasting
+## Document Upload Requirements
 
-### 3. Client and Contact Information
+### Supported File Formats
+The system accepts the following file types for document uploads:
 
-1. **Client/Company Details**
-   - Search for existing client in the system database
-   - If new client: Click "Add New Client" and fill required fields
-   - Enter company name, industry, and basic contact information
+- **PDF files** (.pdf)
+- **Microsoft Word documents** (.doc, .docx)
+- **Microsoft Excel spreadsheets** (.xls, .xlsx)
+- **Image files** (.jpg, .jpeg, .png, .gif, .bmp)
+- **Text files** (.txt)
 
-2. **Primary Contact**
-   - Select or create the main contact person for this deal
-   - Enter full name, title, email, and phone number
-   - Verify contact information accuracy
+### File Size Limitations
+- Maximum file size: **10 MB per file**
+- Maximum total upload size per deal: **50 MB**
 
-3. **Additional Contacts**
-   - Add any secondary contacts involved in the decision process
-   - Include influencers, decision makers, and technical contacts
-   - Specify their role in the buying process
+### Upload Error Messages
 
-### 4. Deal Classification and Details
+If there are issues with your file uploads, you may see these error messages:
 
-1. **Deal Type/Category**
-   - Select the appropriate deal category (New Business, Renewal, Upsell, Cross-sell)
-   - Choose the product/service category
-   - Specify the business unit or division
+- **File Too Large**: "File size exceeds the 10 MB limit. Please compress or choose a smaller file."
+- **Unsupported Format**: "File format not supported. Please upload PDF, DOC, XLS, or image files only."
+- **Upload Failed**: "File upload failed. Please check your internet connection and try again."
+- **Total Size Exceeded**: "Total upload size exceeds 50 MB limit. Please remove some files or compress existing ones."
 
-2. **Source/Lead Origin**
-   - Indicate how this opportunity was generated
-   - Options may include: Website, Referral, Cold Call, Marketing Campaign, Trade Show
-   - This helps track marketing effectiveness
+## Step-by-Step Deal Creation Process
 
-3. **Probability Assessment**
-   - Set the probability percentage of closing this deal
-   - Base this on realistic assessment of the opportunity
-   - Update as the deal progresses through stages
+### 1. Access Deal Creation
+- Log into the ORBE system using your credentials
+- Navigate to the "Deals" section from the main menu
+- Click the "Create New Deal" button
+- Select the appropriate deal type from the dropdown menu
 
-4. **Competition Analysis**
-   - Identify known competitors involved
-   - Note competitive advantages and challenges
-   - This information helps in strategy planning
+### 2. Enter Basic Information
+- **Deal Name**: Create a descriptive name for easy identification
+- **Deal Value**: Enter the estimated monetary value
+- **Currency**: Select the appropriate currency from the dropdown
+- **Probability**: Estimate the likelihood of closing (0-100%)
+- **Expected Close Date**: Set a realistic target date
 
-### 5. Additional Information and Notes
+### 3. Complete Mandatory Fields
+Ensure all required fields are filled:
+- Enter the **Company Name** (exact legal name)
+- Provide the **Founder Name** (primary contact)
+- Input a valid **Company Email** address
+- Add the complete **Company Website** URL
 
-1. **Deal Description**
-   - Provide a detailed description of the opportunity
-   - Include client needs, proposed solution, and key requirements
-   - Be specific about deliverables and timeline
+### 4. Add Optional Information
+- Deal description and notes
+- Additional contact information
+- Deal source and referral details
+- Custom field values as needed
 
-2. **Internal Notes**
-   - Add any relevant internal information
-   - Include strategy notes, concerns, or special considerations
-   - These notes are for internal team use only
+### 5. Upload Supporting Documents
+- Click "Upload Documents" button
+- Select files meeting format and size requirements
+- Add document descriptions and categories
+- Verify all uploads completed successfully
 
-3. **Next Steps**
-   - Document the immediate next actions required
-   - Set follow-up dates and responsibilities
-   - Ensure clarity on who does what and when
+### 6. Assign Team Members
+- Select primary deal owner from user directory
+- Add team members who should have access
+- Set permission levels for each team member
+- Configure notification preferences
 
-### 6. File Attachments and Documents
-
-1. **Upload Relevant Documents**
-   - Attach proposals, contracts, or presentations
-   - Include client requirements documents
-   - Add any relevant correspondence
-
-2. **Document Organization**
-   - Use clear, descriptive file names
-   - Organize documents by type or date
-   - Ensure all team members can access necessary files
-
-### 7. Team Assignment and Permissions
-
-1. **Deal Owner Assignment**
-   - Assign the primary deal owner (usually yourself)
-   - Ensure the owner has appropriate permissions
-   - Verify contact information for the owner
-
-2. **Team Members**
-   - Add team members who need access to this deal
-   - Assign appropriate permission levels (View, Edit, Admin)
-   - Include technical resources, managers, and support staff as needed
-
-3. **Notification Settings**
-   - Configure who receives updates about deal changes
-   - Set up milestone notifications
-   - Ensure key stakeholders are informed of progress
+### 7. Set Deal Stage and Pipeline
+- Choose the appropriate sales pipeline
+- Set the current deal stage
+- Configure stage-specific requirements
+- Set up automated workflow triggers
 
 ### 8. Review and Save
+- Review all entered information for accuracy
+- Verify all mandatory fields are complete
+- Check document uploads are successful
+- Click "Save Deal" to create the record
 
-1. **Information Verification**
-   - Review all entered information for accuracy
-   - Verify contact details and deal values
-   - Check that all required fields are completed
+### 9. Confirmation
+- System displays confirmation message: "Deal created successfully"
+- Note the assigned deal ID number
+- Verify deal appears in your deals list
+- Check that team notifications were sent
 
-2. **Validation Checks**
-   - Ensure deal name is unique and descriptive
-   - Verify that selected stage matches current status
-   - Confirm that all mandatory custom fields are filled
+## Common Issues and Troubleshooting
 
-3. **Save the Deal**
-   - Click "Save" or "Create Deal" button
-   - Wait for system confirmation message
-   - Note the assigned deal ID for future reference
-
-### 9. Post-Creation Setup
-
-1. **Calendar Integration**
-   - Schedule initial follow-up activities
-   - Set reminders for key milestones
-   - Integrate with your calendar system if available
-
-2. **Activity Planning**
-   - Create initial activities and tasks
-   - Assign responsibilities to team members
-   - Set up recurring activities if needed
-
-3. **Reporting Setup**
-   - Add deal to relevant reports and dashboards
-   - Ensure it appears in pipeline forecasts
-   - Verify integration with sales analytics
-
-## Troubleshooting
-
-### Common Issues and Solutions
-
-#### Deal Creation Form Not Loading
-
-- **Symptoms**: Blank form, loading errors, or missing fields
+### Validation Errors
+- **Symptoms**: Cannot save deal, red error messages appear
 - **Solutions**:
-  - Refresh the browser page
-  - Clear browser cache and cookies
-  - Check internet connection stability
-  - Try using a different browser
-  - Verify user permissions with system administrator
-  - Check if system maintenance is in progress
+  - Check all mandatory fields are completed
+  - Verify email addresses are in correct format
+  - Ensure website URLs include http:// or https://
+  - Confirm all required dropdowns have selections
 
-#### Permission Denied Errors
-
-- **Symptoms**: "Access denied" or "Insufficient permissions" messages
+### Permission Issues
+- **Symptoms**: "Access Denied" or "Insufficient Permissions" messages
 - **Solutions**:
-  - Verify your user role includes deal creation permissions
-  - Contact system administrator to review permissions
-  - Check if you're assigned to the correct user group
+  - Contact your system administrator
+  - Verify your user role includes deal creation rights
+  - Check if you're assigned to the correct team/department
   - Ensure your account is active and not suspended
-  - Try logging out and back in to refresh permissions
 
-#### Client/Contact Search Issues
-
-- **Symptoms**: Cannot find existing clients or contacts in search
+### File Upload Problems
+- **Symptoms**: Upload failures, file size errors, format warnings
 - **Solutions**:
-  - Try different search terms (partial names, company abbreviations)
-  - Search using different fields (email, phone number)
-  - Check spelling and remove special characters
-  - Contact data administrator to verify client records
-  - Create new client record if truly doesn't exist
-  - Clear search filters that might be limiting results
-
-#### Validation Errors on Save
-
-- **Symptoms**: Form won't save, showing field validation errors
-- **Solutions**:
-  - Check all required fields are completed (marked with *)
-  - Verify date formats match system expectations
-  - Ensure monetary values are in correct format
-  - Check that email addresses are properly formatted
-  - Verify phone numbers match expected patterns
-  - Remove special characters from text fields if problematic
-
-#### Deal Value and Currency Issues
-
-- **Symptoms**: Currency not displaying correctly or value validation errors
-- **Solutions**:
-  - Verify correct currency is selected from dropdown
-  - Use numerical values only (no currency symbols)
-  - Check decimal places match system requirements
-  - Contact administrator about currency conversion rates
-  - Ensure your user profile has correct default currency
-
-#### File Upload Problems
-
-- **Symptoms**: Cannot attach files or upload failures
-- **Solutions**:
-  - Check file size limits (typically 10MB maximum)
-  - Verify file format is supported (PDF, DOC, XLS, images)
-  - Ensure stable internet connection during upload
+  - Compress large files before uploading
+  - Convert unsupported formats to PDF or DOC
+  - Check internet connection stability
   - Try uploading files one at a time
-  - Check available storage space in your account
   - Contact IT support for file format restrictions
 
-#### Team Assignment Issues
-
+### Team Assignment Issues
 - **Symptoms**: Cannot find team members or assignment failures
 - **Solutions**:
   - Verify team members have active ORBE accounts
@@ -256,28 +153,24 @@ This document outlines the standard procedure for creating and registering new d
 ## Best Practices
 
 ### 1. Data Quality
-
 - **Accuracy First**: Always verify client and contact information before saving
 - **Consistent Naming**: Use standardized naming conventions for deals
 - **Complete Information**: Fill all relevant fields to maximize system utility
 - **Regular Updates**: Keep deal information current as situations change
 
 ### 2. Deal Management
-
 - **Realistic Assessments**: Set achievable close dates and probability percentages
 - **Stage Progression**: Move deals through stages based on actual progress
 - **Activity Documentation**: Record all significant interactions and activities
 - **Team Communication**: Keep all stakeholders informed of important developments
 
 ### 3. Security and Privacy
-
 - **Confidential Information**: Handle client data according to privacy policies
 - **Access Control**: Only grant access to team members who need it
 - **Document Security**: Ensure sensitive documents are properly protected
 - **Audit Trail**: Maintain records of who accesses and modifies deal information
 
 ### 4. Performance Optimization
-
 - **Regular Cleanup**: Archive or delete obsolete deals to maintain system performance
 - **Bulk Operations**: Use bulk import/export features for multiple deals when available
 - **Report Integration**: Leverage deal data for sales forecasting and analysis
@@ -286,19 +179,16 @@ This document outlines the standard procedure for creating and registering new d
 ## Integration Points
 
 ### CRM Integration
-
 - Deals automatically sync with customer relationship management systems
 - Contact information updates propagate across integrated platforms
 - Activity history is shared between ORBE and CRM systems
 
 ### Calendar and Email Integration
-
 - Deal-related meetings and tasks sync with calendar applications
 - Email communications can be linked to specific deals
 - Automated reminders are sent based on deal milestones
 
 ### Reporting and Analytics
-
 - New deals appear in sales pipeline reports within 24 hours
 - Deal data feeds into revenue forecasting models
 - Performance metrics are updated in real-time dashboards
@@ -314,7 +204,7 @@ This document outlines the standard procedure for creating and registering new d
 
 ## Document Information
 
-- **Version**: 1.0
+- **Version**: 2.0
 - **Created**: September 10, 2025
 - **Last Updated**: September 10, 2025
 - **Next Review Date**: December 10, 2025
@@ -323,5 +213,4 @@ This document outlines the standard procedure for creating and registering new d
 - **Related Documents**: login-procedure.md, user-management.md
 
 ---
-
 *This document is confidential and intended for authorized ORBE users only. Unauthorized distribution is prohibited. For questions or suggestions regarding this procedure, please contact the Sales Operations Team.*
