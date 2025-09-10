@@ -1,9 +1,11 @@
 # Login Procedure
 
 ## Overview
+
 This document outlines the standard login procedure for accessing the ORBE system.
 
 ## Prerequisites
+
 - Valid user credentials (username and password)
 - Active network connection
 - Access to the ORBE login portal
@@ -12,11 +14,13 @@ This document outlines the standard login procedure for accessing the ORBE syste
 ## Step-by-Step Login Procedure
 
 ### 1. Access the Login Portal
+
 1. Open your preferred web browser
-2. Navigate to the ORBE login URL: `https://orbe.system.com/login`
+2. Navigate to the ORBE login URL: `https://qa.orbe360.ai/`
 3. Verify that the URL is correct and the connection is secure (look for HTTPS)
 
 ### 2. Enter Credentials
+
 1. Locate the username field
 2. Enter your assigned username (case-sensitive)
 3. Locate the password field
@@ -24,6 +28,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 5. Verify that both fields are filled correctly
 
 ### 3. Authentication
+
 1. Click the "Login" or "Sign In" button
 2. Wait for the system to process your credentials
 3. If two-factor authentication (2FA) is enabled:
@@ -32,6 +37,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
    - Click "Verify" or "Continue"
 
 ### 4. Successful Login
+
 1. Upon successful authentication, you will be redirected to the main dashboard
 2. Verify that your username appears in the top-right corner
 3. Check that all menu items and features are accessible
@@ -41,6 +47,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 ### Common Issues and Solutions
 
 #### Invalid Credentials
+
 - **Symptoms**: "Invalid username or password" error message
 - **Solutions**:
   - Verify username spelling and case sensitivity
@@ -49,6 +56,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Contact system administrator if credentials are forgotten
 
 #### Account Locked
+
 - **Symptoms**: "Account locked" or "Too many failed attempts" message
 - **Solutions**:
   - Wait 15-30 minutes before attempting again
@@ -56,6 +64,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Verify account status with IT support
 
 #### Browser Compatibility Issues
+
 - **Symptoms**: Login page doesn't load properly or buttons don't respond
 - **Solutions**:
   - Clear browser cache and cookies
@@ -64,6 +73,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Update browser to latest version
 
 #### Network Connectivity Issues
+
 - **Symptoms**: Page won't load or timeout errors
 - **Solutions**:
   - Check internet connection
@@ -72,6 +82,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Try connecting from a different network
 
 ### Two-Factor Authentication Issues
+
 - **Symptoms**: Not receiving 2FA codes or codes not working
 - **Solutions**:
   - Check mobile device signal strength
@@ -99,19 +110,17 @@ This document outlines the standard login procedure for accessing the ORBE syste
 
 ## Contact Information
 
-- **IT Support**: support@orbe.system.com
-- **System Administrator**: admin@orbe.system.com
-- **Emergency Contact**: +1-555-ORBE-911
-- **Help Desk Hours**: Monday-Friday, 8:00 AM - 6:00 PM EST
+- IT Support: support@orbe.system.com
+- System Administrator: admin@orbe.system.com
+- Emergency Contact: +1-555-ORBE-911
+- Help Desk Hours: Monday-Friday, 8:00 AM - 6:00 PM EST
 
 ## Document Information
 
-- **Version**: 1.0
-- **Last Updated**: September 10, 2025
-- **Next Review Date**: December 10, 2025
-- **Document Owner**: IT Security Team
-- **Approved By**: System Administrator
+- Version: 1.0
+- Last Updated: September 10, 2025
+- Next Review Date: December 10, 2025
+- Document Owner: IT Security Team
+- Approved By: System Administrator
 
----
-
-*This document is confidential and intended for authorized personnel only. Unauthorized distribution is prohibited.*
+This document is confidential and intended for authorized personnel only. Unauthorized distribution is prohibited.
