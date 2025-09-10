@@ -10,6 +10,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 - Active network connection
 - Access to the ORBE login portal
 - Compatible web browser (Chrome, Firefox, Safari, or Edge)
+- Access to the email account registered with your ORBE account (for OTP verification)
 
 ## Step-by-Step Login Procedure
 
@@ -27,18 +28,21 @@ This document outlines the standard login procedure for accessing the ORBE syste
 4. Enter your password (case-sensitive)
 5. Verify that both fields are filled correctly
 
-### 3. Authentication
+### 3. Authentication and OTP Verification
 
 1. Click the "Login" or "Sign In" button
 2. Wait for the system to process your credentials
-3. If two-factor authentication (2FA) is enabled:
-   - Check your mobile device for the authentication code
-   - Enter the 6-digit code in the provided field
-   - Click "Verify" or "Continue"
+3. **OTP Verification Process:**
+   - After successful credential validation, the system will automatically send a One-Time Password (OTP) **via email** to your registered email address
+   - Check your email inbox for a message from the ORBE system containing a 6-digit verification code
+   - **Important:** If you don't receive the OTP email within 2-3 minutes, check your spam/junk email folder as the message may have been filtered
+   - Enter the 6-digit OTP code in the verification field on the login page
+   - Click "Verify OTP" or "Continue" to complete the authentication process
+   - If the code has expired or is not working, click "Resend" to request a new OTP
 
 ### 4. Successful Login
 
-1. Upon successful authentication, you will be redirected to the main dashboard
+1. Upon successful OTP verification, you will be redirected to the main dashboard
 2. Verify that your username appears in the top-right corner
 3. Check that all menu items and features are accessible
 
@@ -63,6 +67,28 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Contact system administrator for immediate unlock
   - Verify account status with IT support
 
+#### OTP Email Not Received
+
+- **Symptoms**: OTP verification code email doesn't arrive
+- **Solutions**:
+  - Wait 2-3 minutes as email delivery may take some time
+  - **Check your spam/junk email folder** - OTP emails are sometimes filtered
+  - Verify that your registered email address is correct and accessible
+  - Click "Resend" to request a new OTP code
+  - Contact system administrator if email issues persist
+  - Ensure your email account has sufficient storage space
+
+#### OTP Code Issues
+
+- **Symptoms**: OTP code is rejected or shows as invalid
+- **Solutions**:
+  - Ensure you're entering the most recent OTP code received
+  - Check that the code hasn't expired (typically valid for 5-10 minutes)
+  - Verify you're entering all 6 digits correctly
+  - Try copying and pasting the code from the email
+  - Request a new OTP if the current one has expired
+  - Contact system administrator if codes consistently fail
+
 #### Browser Compatibility Issues
 
 - **Symptoms**: Login page doesn't load properly or buttons don't respond
@@ -81,15 +107,6 @@ This document outlines the standard login procedure for accessing the ORBE syste
   - Contact network administrator if on corporate network
   - Try connecting from a different network
 
-### Two-Factor Authentication Issues
-
-- **Symptoms**: Not receiving 2FA codes or codes not working
-- **Solutions**:
-  - Check mobile device signal strength
-  - Verify correct phone number is registered
-  - Try requesting a new code
-  - Contact system administrator for backup codes
-
 ## Security Best Practices
 
 1. **Password Security**
@@ -103,7 +120,13 @@ This document outlines the standard login procedure for accessing the ORBE syste
    - Never leave your session unattended
    - Log out immediately if using a shared computer
 
-3. **Suspicious Activity**
+3. **OTP Security**
+   - Never share your OTP codes with anyone
+   - Use OTP codes immediately after receiving them
+   - Report any suspicious OTP emails that you didn't request
+   - Keep your registered email account secure
+
+4. **Suspicious Activity**
    - Report any suspicious login attempts immediately
    - Monitor login history regularly if available
    - Contact IT security if you suspect account compromise
@@ -117,7 +140,7 @@ This document outlines the standard login procedure for accessing the ORBE syste
 
 ## Document Information
 
-- Version: 1.0
+- Version: 1.1
 - Last Updated: September 10, 2025
 - Next Review Date: December 10, 2025
 - Document Owner: IT Security Team
